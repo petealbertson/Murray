@@ -55,6 +55,25 @@ table {
   background-position: 0 0;
 }
 
+body .wrapwrap .wrap {
+  margin-left: 61.66667px;
+  width: 616.66667px;
+}
+body .wrapwrap .wrap nav {
+  display: inline-block;
+  vertical-align: top;
+  width: 123.33333px;
+}
+body .wrapwrap .wrap .store {
+  display: inline-block;
+  width: 431.66667px;
+}
+body .wrapwrap .wrap .store section {
+  display: inline-block;
+  width: 123.33333px;
+  margin: 10px;
+}
+
 a {
   color: #693416;
 }

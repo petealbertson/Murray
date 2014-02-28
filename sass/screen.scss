@@ -25,6 +25,26 @@ $col_width: ($max_width - $total_gutter_width) / $col_count;
 // Global tags
 
 body {
+  .wrapwrap {
+    .wrap {
+      margin-left: $col_width;
+      width: ($col_width*10);
+      nav {
+        display: inline-block;
+        vertical-align: top;
+        width: $col_width*2;
+      }
+      .store {
+        display: inline-block;
+        width: $col_width*7;
+        section {
+          display: inline-block;
+          width: $col_width*2;
+          margin: 10px;
+        }
+      }
+    }
+  }
 }
 
 a {
